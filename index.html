@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title> Space Photo Gallery</title>
+</head>
+<body>
+
+  <header>
+    <h1> Space Photo Gallery</h1>
+  </header>
+
+  <div class="gallery-container">
+    <div class="gallery">
+      <div class="gallery-item" onclick="openLightbox('img/img1.jpeg')">
+        <img src="img/img1.jpeg" alt="Image 1">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img2.jpg')">
+        <img src="img/img2.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img3.jpg')">
+        <img src="img/img3.jpg" alt="Image 3">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img4.jpeg')">
+        <img src="img/img4.jpeg" alt="Image 4">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img5.jpg')">
+        <img src="img/img5.jpg" alt="Image 5">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img6.jpeg')">
+        <img src="img/img6.jpeg" alt="Image 6">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img7.jpg')">
+        <img src="img/img7.jpg" alt="Image 7">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img8.jpeg')">
+        <img src="img/img8.jpeg" alt="Image 8">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img9.jpg')">
+        <img src="img/img9.jpg" alt="Image 9">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img10.jpg')">
+        <img src="img/img10.jpg" alt="Image 10">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img10.jpeg')">
+        <img src="img/img10.jpeg" alt="Image 11">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img11.jpg')">
+        <img src="img/img11.jpg" alt="Image 12">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img13.jpeg')">
+        <img src="img/img13.jpeg" alt="Image 13">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img14.jpg')">
+        <img src="img/img14.jpg" alt="Image 14">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img15.jpg')">
+        <img src="img/img15.jpg" alt="Image 15">
+      </div>
+      <div class="gallery-item" onclick="openLightbox('img/img16.jpg')">
+        <img src="img/img16.jpg" alt="Image 16">
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="close-btn" title="Close">&times;</span>
+    <img src="" alt="Lightbox Image" id="lightbox-image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
